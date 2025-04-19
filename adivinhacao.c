@@ -44,12 +44,10 @@ int main(){
     if (chute == numerosecreto){
         printf("Parabens! Voce acertou.\n");
         break;
-    } else {
-        if (chute > numerosecreto) {
+    } else if (chute > numerosecreto) {
             printf("O seu chute foi maior do que o numero secreto.\n");
             continue;
-        }
-        if (chute < numerosecreto) {
+        } else {
             printf("O seu chute foi menor do que o numero secreto.\n\n");
             continue;
         }
@@ -58,7 +56,7 @@ int main(){
         continue;
     }
     
-    }
+    
     printf(".............\n");
     printf(".Fim de jogo.\n");
     printf(".............\n\n");
