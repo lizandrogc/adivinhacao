@@ -1,0 +1,1 @@
+Desenvolvi este simples jogo de adivinhação com o propósito de exercitar meus conhecimentos. A intereção com o usuário é feita puramente através do terminal, para isso, compile o arquivo ".c" em alguma IDE.
